@@ -1,0 +1,135 @@
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        font-family: 'Poppins', sans-serif;
+        background-color: #f5f8ff;
+        color: #333;
+        line-height: 1.6;
+    }
+
+    header {
+        background: linear-gradient(135deg, #0c6cf2, #64a1ff);
+        color: white;
+        padding: 60px 20px;
+        text-align: center;
+    }
+
+    header h1 {
+        font-size: 3rem;
+        font-weight: 700;
+    }
+
+    header p {
+        font-size: 1.3rem;
+        margin-top: 15px;
+    }
+
+    .cta-button {
+        background-color: white;
+        color: #0c6cf2;
+        border: none;
+        padding: 15px 30px;
+        font-weight: 600;
+        font-size: 1rem;
+        border-radius: 30px;
+        margin-top: 25px;
+        cursor: pointer;
+        transition: background 0.3s;
+    }
+
+    .cta-button:hover {
+        background-color: #e5efff;
+    }
+
+    section {
+        padding: 60px 20px;
+        text-align: center;
+    }
+
+    .features {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 40px;
+        margin-top: 40px;
+    }
+
+    .feature {
+        background: white;
+        border-radius: 20px;
+        padding: 30px;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+        max-width: 300px;
+        text-align: center;
+    }
+
+    .feature img {
+        width: 60px;
+        margin-bottom: 15px;
+    }
+
+    .feature h3 {
+        font-size: 1.3rem;
+        color: #0c6cf2;
+        margin-bottom: 10px;
+    }
+
+    .testimonial {
+        background-color: #fff;
+        border-radius: 20px;
+        padding: 40px;
+        margin-top: 40px;
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+    }
+
+    .testimonial p {
+        font-size: 1.1rem;
+        font-style: italic;
+    }
+
+    .form-section {
+        background-color: #0c6cf2;
+        color: white;
+        padding: 60px 20px;
+    }
+
+    form {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    form input,
+    form textarea {
+        width: 100%;
+        padding: 15px;
+        margin: 10px 0;
+        border-radius: 10px;
+        border: none;
+        font-size: 1rem;
+    }
+
+    form button {
+        background-color: white;
+        color: #0c6cf2;
+        border: none;
+        padding: 15px 30px;
+        border-radius: 30px;
+        font-size: 1rem;
+        font-weight: 600;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+
+    footer {
+        background-color: #0c6cf2;
+        color: white;
+        text-align: center;
+        padding: 20px;
+    }
