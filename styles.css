@@ -12,7 +12,7 @@
     }
 
     header {
-        background: linear-gradient(135deg, #0c6cf2, #64a1ff);
+        background: linear-gradient(135deg, #0c6cf2, #0c6cf2);
         color: white;
         padding: 60px 20px;
         text-align: center;
@@ -133,3 +133,33 @@
         text-align: center;
         padding: 20px;
     }
+
+    .feature {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .feature:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+    }
+
+    .feature:hover {
+        transform: translateY(-8px) scale(1.03);
+    }
+
+    .cta-button-link {
+  background-color: #fcfcfc;
+  color: #0c6cf2;
+  padding: 12px 24px;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin-top: 20px;
+}
+
+.cta-button-link:hover {
+  transform: translateY(-3px);
+}
